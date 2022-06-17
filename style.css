@@ -1,0 +1,82 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing:auto;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+.main{
+    min-width: 375px;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center ;
+    align-items: center ;
+    min-height: 100vh;
+    }
+    h2{
+        font-weight: 700px;
+        color:hsl(0, 0%, 95%);
+        padding-top: 1em;
+        padding-bottom: 1em;
+        font-family: 'big shoulders display'cursive;
+        
+    }
+    main, div{
+        padding-left: 2em;
+        padding-right: 2em;
+        padding-top: 2em;
+        padding-bottom: 15em;
+        
+    }
+    .sedans{
+        background-color: hsl(31, 77%, 52%);
+    }
+    .suvs{
+        background-color: hsl(184, 100%, 22%);
+    }
+    .luxury{
+        background-color:  hsl(179, 100%, 13%);
+    }
+    #button1{
+        color:hsl(31, 77%, 52%);
+        background-color: white;
+        border-color: rgba(255, 255, 255, 0);
+        border-radius: 12px;
+        padding: 5px;
+        font-size: 15px;
+        font-family:'lexend deca'sans-serif;
+        position: absolute;
+        bottom: 5em;
+    }
+    #button2{
+        color:hsl(184, 100%, 22%);
+        background-color: white;
+        border-color: rgba(255, 255, 255, 0);
+        border-radius: 12px;
+        padding: 5px;
+        font-size: 15px;
+        font-family:'lexend deca'sans-serif;
+        position: absolute;
+        bottom: 5em;
+    }
+    #button3{
+        color:hsl(179, 100%, 13%);
+        background-color: white;
+        border-color: rgba(255, 255, 255, 0);
+        border-radius: 12px;
+        padding: 5px;
+        font-size: 15px;
+        font-family:'lexend deca'sans-serif;
+        position: absolute;
+        bottom: 5em;
+    }
+    p{
+        color:hsla(0, 0%, 100%, 0.75);
+        line-height: 20px;
+        font-size: 15px;
+        font-weight: 400px;
+        font-family: 'lexend deca'sans-serif;
+    }
